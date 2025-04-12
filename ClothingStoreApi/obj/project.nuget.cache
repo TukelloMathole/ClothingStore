@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YDWqI31h1l0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ClothingStoreApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tukello-PC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "C:\\Users\\Tukello-PC\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

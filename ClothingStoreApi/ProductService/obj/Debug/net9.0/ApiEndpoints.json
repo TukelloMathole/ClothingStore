@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "ProductService.Controllers.TestController",
+    "Method": "GetTestMessage",
+    "RelativePath": "api/Test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductService.Controllers.TestController",
+    "Method": "PostTestMessage",
+    "RelativePath": "api/Test",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testMessage",
+        "Type": "ProductService.Controllers.TestMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

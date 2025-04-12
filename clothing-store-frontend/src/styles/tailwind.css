@@ -1,0 +1,21 @@
+@import "tailwindcss/preflight";
+@tailwind utilities;
+@tailwind utilities;
+
+/* Custom styles */
+:root {
+  --primary-color: #1D4ED8; /* You can update this to match your store's brand */
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+/* Custom styles */
+:root {
+  --primary-color: #1D4ED8; /* You can update this to match your store's brand */
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}

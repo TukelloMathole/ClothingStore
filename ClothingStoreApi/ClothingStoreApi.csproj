@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="OrderService\**" />
+    <Compile Remove="PaymentService\**" />
+    <Compile Remove="ProductService\**" />
+    <Compile Remove="UserService\**" />
+    <Content Remove="OrderService\**" />
+    <Content Remove="PaymentService\**" />
+    <Content Remove="ProductService\**" />
+    <Content Remove="UserService\**" />
+    <EmbeddedResource Remove="OrderService\**" />
+    <EmbeddedResource Remove="PaymentService\**" />
+    <EmbeddedResource Remove="ProductService\**" />
+    <EmbeddedResource Remove="UserService\**" />
+    <None Remove="OrderService\**" />
+    <None Remove="PaymentService\**" />
+    <None Remove="ProductService\**" />
+    <None Remove="UserService\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+  </ItemGroup>
+
+</Project>
