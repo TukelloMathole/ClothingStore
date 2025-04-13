@@ -6,7 +6,11 @@ builder.Services.AddControllers();
 // Register Swagger services
 builder.Services.AddEndpointsApiExplorer();  // This adds the necessary services for OpenAPI generation
 builder.Services.AddSwaggerGen();  // This registers the Swagger generator
-
+builder.Services.AddLogging(logging =>
+{
+    logging.AddConsole();
+    logging.AddDebug();
+});
 var app = builder.Build();
 
 // Enable middleware for Swagger UI (only in development)

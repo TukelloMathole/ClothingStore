@@ -167,3 +167,4 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductServic
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.pdb
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.genruntimeconfig.cache
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ref\ProductService.dll
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.sourcelink.json

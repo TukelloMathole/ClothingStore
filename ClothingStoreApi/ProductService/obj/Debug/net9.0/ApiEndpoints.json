@@ -24,5 +24,69 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductService.Controllers.TestController",
+    "Method": "PutTestMessage",
+    "RelativePath": "api/Test",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testMessage",
+        "Type": "ProductService.Controllers.TestMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductService.Controllers.TestController",
+    "Method": "DeleteTestMessage",
+    "RelativePath": "api/Test",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testMessage",
+        "Type": "ProductService.Controllers.TestMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductService.Controllers.TestController",
+    "Method": "PostCustomMessage",
+    "RelativePath": "api/Test/custom",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "testMessage",
+        "Type": "ProductService.Controllers.TestMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductService.Controllers.TestController",
+    "Method": "GetCustomMessage",
+    "RelativePath": "api/Test/custom/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
