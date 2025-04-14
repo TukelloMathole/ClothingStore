@@ -9,6 +9,10 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\b
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Azure.Core.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Azure.Identity.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Build.Locator.dll
@@ -30,6 +34,8 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\b
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
@@ -150,6 +156,7 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\o
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\UserService.csproj.CoreCompileInputs.cache
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\UserService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\UserService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\UserService.sourcelink.json
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\scopedcss\bundle\UserService.styles.css
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\staticwebassets.development.json
@@ -166,11 +173,4 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\o
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\UserService.pdb
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\UserService.genruntimeconfig.cache
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\ref\UserService.dll
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\UserService.sourcelink.json
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\UserService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

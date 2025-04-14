@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import LoginModal from '../components/LogInRegister';
 import Link from 'next/link';
+import { AuthContext } from '@/pages/api/auth/AuthContext';
 import {
   ShoppingCart,
   Heart,
@@ -13,11 +14,11 @@ import {
   X,
 } from 'lucide-react';
 
-const Header = ({ isLoggedIn }: { isLoggedIn: boolean }) => {
+const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
   const [isRegister, setIsRegister] = useState(false);
-
+  const { isLoggedIn } = useContext(AuthContext);
   const openLoginModal = () => setIsLoginModalOpen(true);
   const closeLoginModal = () => setIsLoginModalOpen(false);
   const toggleForm = () => setIsRegister(!isRegister);

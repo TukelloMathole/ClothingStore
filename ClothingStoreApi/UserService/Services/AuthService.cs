@@ -3,6 +3,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using UserService.Models;
 using UserService.Dtos;
 
 namespace UserService.Services
@@ -19,9 +20,10 @@ namespace UserService.Services
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IConfiguration _config;
 
-        public AuthService(UserManager<ApplicationUser> userManager,
-                           SignInManager<ApplicationUser> signInManager,
-                           IConfiguration config)
+        public AuthService(
+            UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
+            IConfiguration config)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -37,13 +39,14 @@ namespace UserService.Services
                 PhoneNumber = dto.Phone,
                 FullName = dto.FullName,
                 Gender = dto.Gender,
-                DateOfBirth = dto.DateOfBirth,
+                DateOfBirth = dto.DateOfBirth ?? DateTime.MinValue,
                 Address = dto.Address,
                 Style = dto.Style,
                 Subscribe = dto.Subscribe
             };
 
             var result = await _userManager.CreateAsync(user, dto.Password);
+
             if (result.Succeeded)
             {
                 await _userManager.AddToRoleAsync(user, "User"); // Assign default role
@@ -52,14 +55,13 @@ namespace UserService.Services
             return result;
         }
 
-
         public async Task<LoginResponseDto> LoginAsync(LoginDto dto)
         {
             var user = await _userManager.FindByEmailAsync(dto.Email);
             if (user != null && await _userManager.CheckPasswordAsync(user, dto.Password))
             {
                 var roles = await _userManager.GetRolesAsync(user);
-                var token = GenerateJwtToken(user, roles.FirstOrDefault());
+                var token = GenerateJwtToken(user, roles.FirstOrDefault() ?? "User");
 
                 return new LoginResponseDto
                 {
@@ -77,11 +79,11 @@ namespace UserService.Services
         {
             var claims = new[]
             {
-            new Claim(JwtRegisteredClaimNames.Sub, user.Email),
-            new Claim(ClaimTypes.NameIdentifier, user.Id),
-            new Claim(ClaimTypes.Name, user.UserName),
-            new Claim(ClaimTypes.Role, role)
-        };
+                new Claim(JwtRegisteredClaimNames.Sub, user.Email),
+                new Claim(ClaimTypes.NameIdentifier, user.Id),
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Role, role)
+            };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -96,5 +98,4 @@ namespace UserService.Services
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
-
 }

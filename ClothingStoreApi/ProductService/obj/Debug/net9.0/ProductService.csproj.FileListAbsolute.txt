@@ -150,6 +150,7 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductServic
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.csproj.CoreCompileInputs.cache
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.sourcelink.json
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\scopedcss\bundle\ProductService.styles.css
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\staticwebassets.development.json
@@ -160,11 +161,9 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductServic
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.ProductService.props
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.ProductService.props
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductS.A0FC5512.Up2Date
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\refint\ProductService.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.pdb
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.genruntimeconfig.cache
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ref\ProductService.dll
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.sourcelink.json

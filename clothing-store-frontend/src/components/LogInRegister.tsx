@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FcGoogle } from 'react-icons/fc';
 import { FaApple, FaFacebook } from 'react-icons/fa';
+import { registerUser, loginUser } from '../pages/api/auth/authApi';
+
 
 type AuthModalProps = {
     isOpen: boolean;
@@ -49,20 +51,37 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, closeModal }) => {
 
     interface SubmitEvent extends React.FormEvent<HTMLFormElement> {}
 
-    const handleSubmit = (e: SubmitEvent): void => {
+    const handleSubmit = async (e: SubmitEvent): Promise<void> => {
         e.preventDefault();
-        if (isRegister) {
-            console.log('Registering with:', formData);
-            // Add register API call here
-        } else {
-            console.log('Logging in with:', {
-                username: formData.username,
-                password: formData.password,
+      
+        try {
+          if (isRegister) {
+            await registerUser(formData); // Just register
+            console.log('Registration successful!');
+            setIsRegister(false); // Switch to login
+          } else {
+            const result = await loginUser({
+              Email: formData.email,
+              Password: formData.password,
             });
-            // Add login API call here
+      
+            console.log('Login successful:', result);
+      
+            // Save to localStorage or context (simplified here)
+            localStorage.setItem('token', result.accessToken);
+            localStorage.setItem('user', JSON.stringify(result));
+      
+            // Optionally: update parent/global auth state
+            // e.g. dispatch({ type: 'LOGIN', payload: result })
+      
+            closeModal(); // Close modal
+          }
+        } catch (error: any) {
+          console.error('Auth error:', error.message || error);
+          alert(error.message || 'Something went wrong');
         }
-    };
-
+      };
+      
     const toggleForm = () => {
         setIsRegister(!isRegister);
     };

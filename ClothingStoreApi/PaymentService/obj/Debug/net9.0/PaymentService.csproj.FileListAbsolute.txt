@@ -150,6 +150,7 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentServic
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\PaymentService.csproj.CoreCompileInputs.cache
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\PaymentService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\PaymentService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\PaymentService.sourcelink.json
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\scopedcss\bundle\PaymentService.styles.css
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\staticwebassets.development.json
@@ -160,7 +161,6 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentServic
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.PaymentService.props
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.PaymentService.props
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\PaymentS.0CEDD34D.Up2Date
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\PaymentService.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\PaymentService\obj\Debug\net9.0\refint\PaymentService.dll

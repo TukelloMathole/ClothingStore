@@ -150,6 +150,7 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\OrderService.csproj.CoreCompileInputs.cache
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\OrderService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\OrderService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\OrderService.sourcelink.json
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\scopedcss\bundle\OrderService.styles.css
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\staticwebassets.development.json
@@ -160,7 +161,6 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.OrderService.props
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.OrderService.props
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\OrderSer.4493321F.Up2Date
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\OrderService.dll
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\OrderService\obj\Debug\net9.0\refint\OrderService.dll

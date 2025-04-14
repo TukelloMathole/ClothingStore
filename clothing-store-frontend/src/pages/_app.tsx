@@ -1,8 +1,12 @@
+// pages/_app.tsx
 import "@/styles/globals.css";  // Import global styles
-import { AppProps } from "next/app";  // Import the AppProps type for Next.js
+import type { AppProps } from 'next/app';
+import { AuthProvider } from '../pages/api/auth/AuthContext';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+export default function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <AuthProvider>
+      <Component {...pageProps} />
+    </AuthProvider>
+  );
 }
-
-export default MyApp;
