@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { FcGoogle } from 'react-icons/fc';
 import { FaApple, FaFacebook } from 'react-icons/fa';
 import { registerUser, loginUser } from '../pages/api/auth/authApi';
-
+import { AuthContext } from '../context/AuthContext';  // Assuming you have a context for authentication
 
 type AuthModalProps = {
     isOpen: boolean;
     closeModal: () => void;
     toggleForm: () => void;
-    isRegister: boolean; // Added this property
-  };
+    isRegister: boolean; 
+};
 
 const AuthModal: React.FC<AuthModalProps> = ({ isOpen, closeModal }) => {
     const [isRegister, setIsRegister] = useState(false);
@@ -27,6 +27,8 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, closeModal }) => {
         subscribe: false,
     });
 
+    const { login } = useContext(AuthContext); // Assuming you have a login method in your context
+
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
         const { name, value, type, checked } = e.target as HTMLInputElement;
         setFormData((prev) => ({
@@ -35,70 +37,59 @@ const AuthModal: React.FC<AuthModalProps> = ({ isOpen, closeModal }) => {
         }));
     };
 
-    interface FormData {
-        username: string;
-        email: string;
-        password: string;
-        confirmPassword: string;
-        fullName: string;
-        phone: string;
-        gender: string;
-        dob: string;
-        address: string;
-        style: string;
-        subscribe: boolean;
-    }
-
-    interface SubmitEvent extends React.FormEvent<HTMLFormElement> {}
-
-    const handleSubmit = async (e: SubmitEvent): Promise<void> => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
         e.preventDefault();
-      
+
         try {
-          if (isRegister) {
-            await registerUser(formData); // Just register
-            console.log('Registration successful!');
-            setIsRegister(false); // Switch to login
-          } else {
-            const result = await loginUser({
-              Email: formData.email,
-              Password: formData.password,
-            });
-      
-            console.log('Login successful:', result);
-      
-            // Save to localStorage or context (simplified here)
-            localStorage.setItem('token', result.accessToken);
-            localStorage.setItem('user', JSON.stringify(result));
-      
-            // Optionally: update parent/global auth state
-            // e.g. dispatch({ type: 'LOGIN', payload: result })
-      
-            closeModal(); // Close modal
-          }
+            if (isRegister) {
+                await registerUser(formData);
+                console.log('Registration successful!');
+                setIsRegister(false); // Switch to login
+            } else {
+                const result = await loginUser({
+                    Email: formData.email,
+                    Password: formData.password,
+                });
+
+                console.log('Login successful:', result);
+
+                // Handle the login here with the result
+                handleLogin(result.accessToken);  // Call the login function
+
+                closeModal(); // Close modal after successful login
+            }
         } catch (error: any) {
-          console.error('Auth error:', error.message || error);
-          alert(error.message || 'Something went wrong');
+            console.error('Auth error:', error.message || error);
+            alert(error.message || 'Something went wrong');
         }
-      };
-      
+    };
+
+    const handleLogin = async (token: string) => {
+        try {
+            // Update the context with the token
+            login(token);
+
+            // Optionally, close the modal after successful login
+            closeModal();
+        } catch (error) {
+            console.error('Login failed:', error);
+        }
+    };
+
     const toggleForm = () => {
         setIsRegister(!isRegister);
     };
 
     const handleGoogleLogin = () => {
         console.log('Redirect to Google OAuth');
-        // window.location.href = "YOUR_GOOGLE_AUTH_URL"
     };
 
     const handleAppleLogin = () => {
         console.log('Redirect to Apple Sign-In');
-        // Apple auth logic
     };
 
     const handleFacebookLogin = () => {
         console.log('Redirect to Facebook OAuth');
-        // Facebook auth logic
     };
 
     return (
@@ -258,12 +249,11 @@ interface SocialButtonProps {
 
 const SocialButton: React.FC<SocialButtonProps> = ({ icon, text, onClick }) => (
     <button
-        type="button"
         onClick={onClick}
-        className="w-full flex items-center gap-3 justify-center border border-gray-300 py-2 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+        className="w-full flex items-center justify-center py-2 px-4 border border-gray-300 rounded-lg hover:bg-gray-200"
     >
-        <span>{icon}</span>
-        <span className="text-sm font-medium">{text}</span>
+        <span className="mr-3">{icon}</span>
+        {text}
     </button>
 );
 

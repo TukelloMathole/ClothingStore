@@ -1,4 +1,3 @@
-// pages/api/auth/AuthContext.tsx
 import { createContext, useState, useEffect } from 'react';
 
 interface AuthContextType {
@@ -14,16 +13,29 @@ export const AuthContext = createContext<AuthContextType>({
 });
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
 
+  // Check for token on mount and when localStorage changes (even in other tabs)
   useEffect(() => {
-    const token = localStorage.getItem('token');
-    setIsLoggedIn(!!token);
+    const checkToken = () => {
+      const token = localStorage.getItem('token');
+      setIsLoggedIn(!!token);
+    };
+
+    checkToken();
+
+    window.addEventListener('storage', checkToken); // for other tabs
+    window.addEventListener('focus', checkToken);   // for same tab (when switching back)
+
+    return () => {
+      window.removeEventListener('storage', checkToken);
+      window.removeEventListener('focus', checkToken);
+    };
   }, []);
 
   const login = (token: string) => {
     localStorage.setItem('token', token);
-    setIsLoggedIn(true);
+    setIsLoggedIn(true);  // Immediately update state after login
   };
 
   const logout = () => {
