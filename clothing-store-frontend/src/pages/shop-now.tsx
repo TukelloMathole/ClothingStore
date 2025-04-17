@@ -1,3 +1,5 @@
+// pages/shop-now.tsx
+
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
 import { Product } from '@/types/product';
@@ -20,30 +22,51 @@ const ShopNowPage = ({ products }: ShopNowProps) => {
 
   return (
     <MainLayout>
-      <section className="px-4 py-10 sm:px-8">
-        <h1 className="text-4xl font-bold text-center mb-10">Shop Now</h1>
+      <section className="px-4 py-12 sm:px-8 bg-gray-100 min-h-screen">
+        <h1 className="text-4xl font-bold text-center text-gray-800 mb-12">🛍️ Shop Now</h1>
 
-        <CategoryFilter selected={selectedCategory} onSelect={(cat: 'All' | 'Men' | 'Women') => {
-          setSelectedCategory(cat);
-          setSelectedSubcategory('All');
-        }} />
+        <div className="flex flex-col gap-4 mb-6 p-4">
+          <div>
+            <CategoryFilter
+              selected={selectedCategory}
+              onSelect={(cat: 'All' | 'Men' | 'Women') => {
+                setSelectedCategory(cat);
+                setSelectedSubcategory('All');
+              }}
+            />
+          </div>
 
-        {selectedCategory !== 'All' && (
-          <SubcategoryFilter
-            category={selectedCategory}
-            selected={selectedSubcategory}
-            onSelect={setSelectedSubcategory}
-          />
-        )}
+          {selectedCategory !== 'All' && (
+            <div>
+              <SubcategoryFilter
+                category={selectedCategory}
+                selected={selectedSubcategory}
+                onSelect={setSelectedSubcategory}
+              />
+            </div>
+          )}
+        </div>
+
+
+
 
         {filteredProducts.length === 0 ? (
-          <p className="text-center text-gray-500">No products found for this selection.</p>
+          <p className="text-center text-gray-500 mt-20 text-lg">
+            😕 No products found for this selection.
+          </p>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-8 gap-4 sm:gap-5">
             {filteredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard
+                key={product.id}
+                product={product}
+                onAddToCart={(product) => {
+                  console.log('Product added to cart:', product);
+                }}
+              />
             ))}
           </div>
+
         )}
       </section>
     </MainLayout>
@@ -52,7 +75,7 @@ const ShopNowPage = ({ products }: ShopNowProps) => {
 
 export const getServerSideProps: GetServerSideProps = async () => {
   try {
-    const res = await apiClient.get('/products');
+    const res = await apiClient.get('http://localhost:5000/products/getproducts');
     return {
       props: {
         products: res.data,
