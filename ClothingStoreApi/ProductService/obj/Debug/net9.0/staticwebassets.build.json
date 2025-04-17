@@ -1,12 +1,537 @@
 {
   "Version": 1,
-  "Hash": "decnMUGnSwkU80D5J6CIms0tMrIa/NTYuvkv5J4J8cc=",
+  "Hash": "fnkilOPBpF4vC7tdBp6qoNNvL8Qgq9/K96WRC+dcGTQ=",
   "Source": "ProductService",
   "BasePath": "_content/ProductService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProductService\\wwwroot",
+      "Source": "ProductService",
+      "ContentRoot": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\",
+      "BasePath": "_content/ProductService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\1644526e-1340-4691-ad5d-d5f5b2e03963.png",
+      "SourceId": "ProductService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\",
+      "BasePath": "_content/ProductService",
+      "RelativePath": "images/1644526e-1340-4691-ad5d-d5f5b2e03963#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6zow0et9gv",
+      "Integrity": "ck5dQHa7NR1iTT8Kb1XcMrzHfwr4JcQ9umSlIAnuOIU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1644526e-1340-4691-ad5d-d5f5b2e03963.png"
+    },
+    {
+      "Identity": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\5d5ada78-d56b-429a-a9c4-ab6bf0bed97d.jpg",
+      "SourceId": "ProductService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\",
+      "BasePath": "_content/ProductService",
+      "RelativePath": "images/5d5ada78-d56b-429a-a9c4-ab6bf0bed97d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7b8k37xjcn",
+      "Integrity": "E5aN35zOZgtAYqj9loOFEvKOqQT0OqwVQgSi8fQLl1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5d5ada78-d56b-429a-a9c4-ab6bf0bed97d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\9409f751-a261-4024-a619-f8fb262edef0.jpg",
+      "SourceId": "ProductService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\",
+      "BasePath": "_content/ProductService",
+      "RelativePath": "images/9409f751-a261-4024-a619-f8fb262edef0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bu9t1p6axs",
+      "Integrity": "7aPtUMjOVpToGnngHdraUJbr9tH+zbIh+M3tNrZzlcE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9409f751-a261-4024-a619-f8fb262edef0.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\a324e141-c60d-47fb-9acf-3507cf2e4e0c.jpg",
+      "SourceId": "ProductService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\",
+      "BasePath": "_content/ProductService",
+      "RelativePath": "images/a324e141-c60d-47fb-9acf-3507cf2e4e0c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nsfj2a1ivz",
+      "Integrity": "Se/ZTbL28vazxH1xfwvX9sZ7toZkrSEMITwNP2s5YNg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a324e141-c60d-47fb-9acf-3507cf2e4e0c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\db0307ab-89de-4542-9237-7e648b816608.jpg",
+      "SourceId": "ProductService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\",
+      "BasePath": "_content/ProductService",
+      "RelativePath": "images/db0307ab-89de-4542-9237-7e648b816608#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "436u480e0o",
+      "Integrity": "UJ54h7hcC2spfOzWrGfHM2zobbIjPABJoR/uYgAEGbw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\db0307ab-89de-4542-9237-7e648b816608.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/1644526e-1340-4691-ad5d-d5f5b2e03963.6zow0et9gv.png",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\1644526e-1340-4691-ad5d-d5f5b2e03963.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ck5dQHa7NR1iTT8Kb1XcMrzHfwr4JcQ9umSlIAnuOIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 20:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6zow0et9gv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/1644526e-1340-4691-ad5d-d5f5b2e03963.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ck5dQHa7NR1iTT8Kb1XcMrzHfwr4JcQ9umSlIAnuOIU="
+        }
+      ]
+    },
+    {
+      "Route": "images/1644526e-1340-4691-ad5d-d5f5b2e03963.png",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\1644526e-1340-4691-ad5d-d5f5b2e03963.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ck5dQHa7NR1iTT8Kb1XcMrzHfwr4JcQ9umSlIAnuOIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 20:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ck5dQHa7NR1iTT8Kb1XcMrzHfwr4JcQ9umSlIAnuOIU="
+        }
+      ]
+    },
+    {
+      "Route": "images/5d5ada78-d56b-429a-a9c4-ab6bf0bed97d.7b8k37xjcn.jpg",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\5d5ada78-d56b-429a-a9c4-ab6bf0bed97d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E5aN35zOZgtAYqj9loOFEvKOqQT0OqwVQgSi8fQLl1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 20:41:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7b8k37xjcn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5d5ada78-d56b-429a-a9c4-ab6bf0bed97d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E5aN35zOZgtAYqj9loOFEvKOqQT0OqwVQgSi8fQLl1s="
+        }
+      ]
+    },
+    {
+      "Route": "images/5d5ada78-d56b-429a-a9c4-ab6bf0bed97d.jpg",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\5d5ada78-d56b-429a-a9c4-ab6bf0bed97d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25762"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E5aN35zOZgtAYqj9loOFEvKOqQT0OqwVQgSi8fQLl1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 20:41:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E5aN35zOZgtAYqj9loOFEvKOqQT0OqwVQgSi8fQLl1s="
+        }
+      ]
+    },
+    {
+      "Route": "images/9409f751-a261-4024-a619-f8fb262edef0.bu9t1p6axs.jpg",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\9409f751-a261-4024-a619-f8fb262edef0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7aPtUMjOVpToGnngHdraUJbr9tH+zbIh+M3tNrZzlcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 20:34:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bu9t1p6axs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/9409f751-a261-4024-a619-f8fb262edef0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7aPtUMjOVpToGnngHdraUJbr9tH+zbIh+M3tNrZzlcE="
+        }
+      ]
+    },
+    {
+      "Route": "images/9409f751-a261-4024-a619-f8fb262edef0.jpg",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\9409f751-a261-4024-a619-f8fb262edef0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7aPtUMjOVpToGnngHdraUJbr9tH+zbIh+M3tNrZzlcE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 20:34:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7aPtUMjOVpToGnngHdraUJbr9tH+zbIh+M3tNrZzlcE="
+        }
+      ]
+    },
+    {
+      "Route": "images/a324e141-c60d-47fb-9acf-3507cf2e4e0c.jpg",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\a324e141-c60d-47fb-9acf-3507cf2e4e0c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Se/ZTbL28vazxH1xfwvX9sZ7toZkrSEMITwNP2s5YNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 19:57:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Se/ZTbL28vazxH1xfwvX9sZ7toZkrSEMITwNP2s5YNg="
+        }
+      ]
+    },
+    {
+      "Route": "images/a324e141-c60d-47fb-9acf-3507cf2e4e0c.nsfj2a1ivz.jpg",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\a324e141-c60d-47fb-9acf-3507cf2e4e0c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Se/ZTbL28vazxH1xfwvX9sZ7toZkrSEMITwNP2s5YNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 19:57:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nsfj2a1ivz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a324e141-c60d-47fb-9acf-3507cf2e4e0c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Se/ZTbL28vazxH1xfwvX9sZ7toZkrSEMITwNP2s5YNg="
+        }
+      ]
+    },
+    {
+      "Route": "images/db0307ab-89de-4542-9237-7e648b816608.436u480e0o.jpg",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\db0307ab-89de-4542-9237-7e648b816608.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UJ54h7hcC2spfOzWrGfHM2zobbIjPABJoR/uYgAEGbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 20:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "436u480e0o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/db0307ab-89de-4542-9237-7e648b816608.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UJ54h7hcC2spfOzWrGfHM2zobbIjPABJoR/uYgAEGbw="
+        }
+      ]
+    },
+    {
+      "Route": "images/db0307ab-89de-4542-9237-7e648b816608.jpg",
+      "AssetFile": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\wwwroot\\images\\db0307ab-89de-4542-9237-7e648b816608.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39884"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UJ54h7hcC2spfOzWrGfHM2zobbIjPABJoR/uYgAEGbw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 20:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UJ54h7hcC2spfOzWrGfHM2zobbIjPABJoR/uYgAEGbw="
+        }
+      ]
+    }
+  ]
 }

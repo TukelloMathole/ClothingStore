@@ -1,29 +1,38 @@
+using Microsoft.EntityFrameworkCore;
+using ProductService.Data;
+using ProductService.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Register services to the container.
 builder.Services.AddControllers();
+builder.Services.AddScoped<IProductService, ProductService.Services.ProductService>();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Register Swagger services
-builder.Services.AddEndpointsApiExplorer();  // This adds the necessary services for OpenAPI generation
-builder.Services.AddSwaggerGen();  // This registers the Swagger generator
+// Swagger & Logging
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddLogging(logging =>
 {
     logging.AddConsole();
     logging.AddDebug();
 });
+
 var app = builder.Build();
 
-// Enable middleware for Swagger UI (only in development)
+// Enable Swagger in development
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();  // Generate the Swagger JSON file
-    app.UseSwaggerUI();  // Serve the Swagger UI page
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
-// Other middleware
-app.UseHttpsRedirection(); // Optional: Only if you want to use HTTPS
+// Middleware pipeline
+app.UseHttpsRedirection();
+app.UseStaticFiles(); // Serve images from wwwroot
+app.UseAuthorization();
 
-// Map controllers to routes
 app.MapControllers();
 
 app.Run();
