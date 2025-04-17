@@ -167,3 +167,5 @@ C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductServic
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.pdb
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ProductService.genruntimeconfig.cache
 C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\ref\ProductService.dll
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\bin\Debug\net9.0\ProductService.staticwebassets.runtime.json
+C:\Users\Tukello-PC\Desktop\ClothingStore_Project\ClothingStoreApi\ProductService\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
