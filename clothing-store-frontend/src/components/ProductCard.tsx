@@ -1,38 +1,23 @@
 // src/components/ProductCard.tsx
 
 import { Product } from '@/types/product';
-import Link from 'next/link';
 
-interface ProductCardProps {
+export interface ProductCardProps {
   product: Product;
-  onAddToCart: (product: Product) => void;
+  onAddToCart?: (product: Product) => void; // ✅ Add this line
 }
 
 const ProductCard = ({ product, onAddToCart }: ProductCardProps) => {
   return (
-    <div className="w-60 h-80 bg-gray-50 p-3 flex flex-col gap-2 rounded-2xl shadow hover:shadow-lg transition">
-
-      <div className="h-48 bg-gray-200 rounded-xl overflow-hidden cursor-pointer">
-        <img
-          src={product.imageUrl}
-          alt={product.name}
-          className="w-full h-full object-cover hover:scale-105 transition-transform"
-        />
-      </div>
-
-
-      <div className="flex flex-col gap-3 flex-grow justify-between">
-        <div className="flex flex-row justify-between items-start">
-          <div className="flex flex-col">
-            <span className="text-md font-bold text-gray-900 truncate">{product.name}</span>
-            {/* <p className="text-xs text-gray-600">ID: {product.id}</p> */}
-          </div>
-          <span className="font-bold text-red-600 text-sm">R {product.price.toFixed(2)}</span>
-        </div>
-
+    <div className="bg-white rounded-lg shadow p-4 flex flex-col justify-between">
+      <img src={product.imageUrl} alt={product.name} className="h-48 object-cover rounded" />
+      <div className="mt-2">
+        <h2 className="text-lg font-semibold">{product.name}</h2>
+        <p className="text-sm text-gray-600">{product.description}</p>
+        <p className="text-lg font-bold mt-2">R{product.price.toFixed(2)}</p>
         <button
-          onClick={() => onAddToCart(product)}
-          className="hover:bg-sky-700 bg-sky-800 text-white py-2 rounded-md text-sm font-medium transition"
+          onClick={() => onAddToCart?.(product)}
+          className="mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
         >
           Add to Cart
         </button>

@@ -1,7 +1,8 @@
 import { useState, useContext, useEffect } from 'react';
 import LoginModal from '../components/LogInRegister';
 import Link from 'next/link';
-import { AuthContext } from '@/context/AuthContext'; // ✅ make sure this path is correct
+import { AuthContext } from '@/context/AuthContext';
+import { useCart } from '@/hooks/useCart'; // ✅ NEW import
 import {
   ShoppingCart,
   Heart,
@@ -19,16 +20,16 @@ const Header = () => {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
   const [isRegister, setIsRegister] = useState(false);
   const { isLoggedIn, logout } = useContext(AuthContext);
+  const { getItemCount } = useCart(); // ✅ Access item count from cart
 
   const openLoginModal = () => setIsLoginModalOpen(true);
   const closeLoginModal = () => setIsLoginModalOpen(false);
   const toggleForm = () => setIsRegister(!isRegister);
 
-  // Optional: re-trigger context state check on window focus (extra safeguard)
   useEffect(() => {
     const handleFocus = () => {
       const token = localStorage.getItem('token');
-      // force rerender if needed (already handled in context, this is just a backup)
+      // optional token checks
     };
     window.addEventListener('focus', handleFocus);
     return () => window.removeEventListener('focus', handleFocus);
@@ -47,7 +48,7 @@ const Header = () => {
             {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
 
-          {/* Navigation menu */}
+          {/* Navigation */}
           <nav className={`${menuOpen ? 'block' : 'hidden'} lg:flex gap-x-6 items-center lg:block overflow-x-auto`}>
             <Link href="/" className="text-xs text-gray-700 hover:text-indigo-500 font-medium mt-2">Home</Link>
             <Link href="/fashion" className="text-xs text-gray-700 hover:text-indigo-500 font-medium mt-2">Fashion</Link>
@@ -80,21 +81,26 @@ const Header = () => {
             </Link>
           </nav>
 
-          {/* User profile and login */}
+          {/* Right section */}
           <div className="flex items-center gap-4">
-            <Link href="/cart" className="flex items-center gap-2 text-xs text-gray-700 hover:text-indigo-500 font-medium">
-              <ShoppingCart className="w-4 h-4" /> Cart
+            <Link href="/cart" className="relative flex items-center gap-2 text-xs text-gray-700 hover:text-indigo-500 font-medium">
+              <ShoppingCart className="w-4 h-4" />
+              Cart
+              {getItemCount() > 0 && (
+                <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-red-500 text-white text-xs font-bold absolute -top-1 -right-2 animate-bounce">
+                  {getItemCount()}
+                </span>
+              )}
             </Link>
+
             {isLoggedIn ? (
               <>
                 <Link href="/profile" className="relative flex items-center gap-1 bg-indigo-500 text-white px-3 py-1.5 rounded-full shadow-md hover:opacity-90 text-xs">
                   <User className="w-3 h-3" /> Profile
-                  {/* Attention notification badge */}
                   <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-yellow-500 text-white text-xs font-bold absolute -top-1 -right-1 animate-ping">
                     !
                   </span>
                 </Link>
-
                 <button
                   onClick={logout}
                   className="flex items-center gap-1 bg-red-500 text-white px-3 py-1.5 rounded-full shadow-md hover:opacity-90 text-xs"
@@ -117,7 +123,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-
 
       <LoginModal
         isOpen={isLoginModalOpen}
