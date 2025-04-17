@@ -2,11 +2,14 @@
 import "@/styles/globals.css";  // Import global styles
 import type { AppProps } from 'next/app';
 import { AuthProvider } from '../context/AuthContext';
+import { CartProvider } from '@/hooks/useCart';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <AuthProvider>
-      <Component {...pageProps} />
+      <CartProvider>
+        <Component {...pageProps} />
+      </CartProvider>
     </AuthProvider>
   );
 }

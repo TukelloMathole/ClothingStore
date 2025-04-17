@@ -1,5 +1,3 @@
-// pages/shop-now.tsx
-
 import { useState } from 'react';
 import { GetServerSideProps } from 'next';
 import { Product } from '@/types/product';
@@ -9,6 +7,7 @@ import MainLayout from '@/layout/mainLayout';
 import CategoryFilter from '../components/CategoryFilter';
 import SubcategoryFilter from '../components/SubcategoryFilter';
 import { useFilteredProducts } from '../hooks/useFilteredProducts';
+import { useCart } from '@/hooks/useCart'; // Import the useCart hook
 
 interface ShopNowProps {
   products: Product[];
@@ -17,8 +16,16 @@ interface ShopNowProps {
 const ShopNowPage = ({ products }: ShopNowProps) => {
   const [selectedCategory, setSelectedCategory] = useState<'All' | 'Men' | 'Women'>('All');
   const [selectedSubcategory, setSelectedSubcategory] = useState('All');
-
+  
   const filteredProducts: Product[] = useFilteredProducts(products, selectedCategory, selectedSubcategory);
+
+  // Use the CartContext
+  const { addToCart } = useCart(); // Get the addToCart function from the context
+
+  const handleAddToCart = (product: Product) => {
+    console.log('Product added to cart:', product); // Debugging statement
+    addToCart(product); // Add the product to the cart
+  };
 
   return (
     <MainLayout>
@@ -47,9 +54,6 @@ const ShopNowPage = ({ products }: ShopNowProps) => {
           )}
         </div>
 
-
-
-
         {filteredProducts.length === 0 ? (
           <p className="text-center text-gray-500 mt-20 text-lg">
             😕 No products found for this selection.
@@ -60,13 +64,10 @@ const ShopNowPage = ({ products }: ShopNowProps) => {
               <ProductCard
                 key={product.id}
                 product={product}
-                onAddToCart={(product) => {
-                  console.log('Product added to cart:', product);
-                }}
+                onAddToCart={handleAddToCart} // Pass the handleAddToCart function here
               />
             ))}
           </div>
-
         )}
       </section>
     </MainLayout>

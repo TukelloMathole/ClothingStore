@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\productservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A9270AB-C303-17AE-E2A0-C11113D712D8}|ClothingStoreApi.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5A9270AB-C303-17AE-E2A0-C11113D712D8}|ClothingStoreApi.csproj|solutionrelative:ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -15,32 +11,12 @@
       "RelativeMoniker": "D:0:0:{F8832160-6E8A-C1E0-17C8-08A5783EBD52}|UserService\\UserService.csproj|solutionrelative:userservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\productservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\productservice\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\productservice\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\productservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|c:\\users\\tukello-pc\\desktop\\clothingstore_project\\clothingstoreapi\\productservice\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BB5A0E4-A3ED-EBD8-B86F-21996AABC09A}|ProductService\\ProductService.csproj|solutionrelative:productservice\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,37 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\UserService\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "UserService\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\UserService\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "UserService\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T20:05:12.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ocelot.json",
               "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ocelot.json",
               "RelativeDocumentMoniker": "ocelot.json",
               "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ocelot.json",
               "RelativeToolTip": "ocelot.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-16T19:50:11.387Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\appsettings.json",
               "RelativeDocumentMoniker": "ProductService\\appsettings.json",
@@ -88,12 +51,11 @@
               "RelativeToolTip": "ProductService\\appsettings.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-16T19:41:20.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T19:41:20.291Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Program.cs",
               "RelativeDocumentMoniker": "ProductService\\Program.cs",
@@ -101,86 +63,19 @@
               "RelativeToolTip": "ProductService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:27:38.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T19:27:38.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "ProductService\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "ProductService\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAUwCgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\UserService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\UserService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:27:17.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "ProductService\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Services\\ProductService.cs",
-              "RelativeToolTip": "ProductService\\Services\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:26:46.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Services\\IProductService.cs",
-              "RelativeDocumentMoniker": "ProductService\\Services\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Services\\IProductService.cs",
-              "RelativeToolTip": "ProductService\\Services\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:26:21.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ProductService\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ProductService\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:25:52.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Dtos\\ProductDto.cs",
-              "RelativeDocumentMoniker": "ProductService\\Dtos\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Dtos\\ProductDto.cs",
-              "RelativeToolTip": "ProductService\\Dtos\\ProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:00:48.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Dtos\\ProductCreateDto.cs",
-              "RelativeDocumentMoniker": "ProductService\\Dtos\\ProductCreateDto.cs",
-              "ToolTip": "C:\\Users\\Tukello-PC\\Desktop\\ClothingStore_Project\\ClothingStoreApi\\ProductService\\Dtos\\ProductCreateDto.cs",
-              "RelativeToolTip": "ProductService\\Dtos\\ProductCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T19:00:28.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-16T20:05:12.564Z"
             }
           ]
         }
